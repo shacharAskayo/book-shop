@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    
+    
+    /* background-image: url('book-shop.jpg') ;  */
+   background-size: 100% 
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    
+}
+.add-button{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 14vh;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    background-image: url('add-button.jpg');
+
+
+}
+
+span {
+    color: lightsalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table {
+    display: block;
+    border-collapse: collapse;
+    flex-direction: column;
+    /* height: 50vh; */
+    margin-left: 40px;
+    width:100%;
+    font-size: 13px;
+    font-wi;
+    /* margin-right: auto; */
+    /* margin-left:auto */
+
+}
+
+.modal {
+    /* display: flex; */
+    /* margin-left: 35%;    */
+}
+h3{
+
+
+}
+
+
+
+input {
+    
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+.plus-button {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.minus-button {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+.rating-button {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+
+.close-button {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+
+
+
+.read-button:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+.read-button {
+    transition: width 0.3s;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(228 71 16 / 73%);
+}
+
+.update-button {
+    transition: width 0.3s;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(228 71 16 / 73%);
+}
+
+.remove-button {
+    transition: width 0.3s;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(228 71 16 / 73%);
+}
